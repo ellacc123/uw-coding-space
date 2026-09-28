@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the course site as a single static-friendly route; GitHub Pages deployment publishes the client bundle with a repository-derived base path and 404 fallback because Pages has no SSR runtime.
